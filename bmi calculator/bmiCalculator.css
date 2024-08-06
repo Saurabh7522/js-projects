@@ -1,0 +1,106 @@
+.mainContainer {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .container h2{
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .container input{
+    width: 15rem;
+    outline: none;
+    font-size: 1rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .formBtn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  label {
+    margin-bottom: 10px;
+    color: #686262;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    padding: 8px 20px;
+    background-color: #979ece;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 8rem;
+    font-size: 1.3rem;
+  }
+  button:hover{
+    background-color:#727bb5 ;
+    transition: 0.2ms;
+  }
+
+  .resultCheck {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .resultCheck h3{
+    font-size: 28px;
+    margin: 0;
+    padding: 5px 0;
+    font-family: math;
+  }
+  #results{
+    width: 100%;
+    font-size: 23px;
+    font-family: ui-monospace;
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    .mainContainer {
+      margin: 20px auto;
+      padding: 10px;
+    }
+
+    .container {
+      padding: 10px;
+    }
+
+    input[type="text"] {
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 5px 10px;
+    }
+
+    .resultCheck {
+      padding: 10px;
+      margin-top: 10px;
+    }
+  }

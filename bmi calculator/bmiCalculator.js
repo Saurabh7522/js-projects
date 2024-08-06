@@ -32,6 +32,8 @@ if ( bmi < 18000 ) {
     resultsCheck.innerHTML = 'Your fitness level is good';
   } else if (bmi < 30000) {
     resultsCheck.innerHTML = 'Your fitness level is fair';
+  } else if (bmi > 30000) {
+    resultsCheck.innerHTML = 'Your fitness level is overweight';
   } 
   else{
     resultsCheck.innerHTML = '';

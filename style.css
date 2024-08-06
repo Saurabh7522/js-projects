@@ -1,0 +1,38 @@
+.allProjects-list {
+    list-style: none;
+    padding: 5px 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: start;
+  }
+  
+  .products {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: start;
+    cursor: pointer;
+  }
+  
+  .products:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  .products a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .products a:hover {
+    color: #666;
+    text-decoration: underline;
+  }
+  

@@ -1,17 +1,24 @@
+body{
+  background-color: #798787;
+}
 .mainContainer {
     max-width: 500px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+   
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    background-image: url(/js-projects/images/Background-img-for-Bmi.jpg);
+
+
   }
 
   .container {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    background-color: ghostwhite;
+    border: 1px solid #ddd;
   }
   .container h2{
     font-size: 2.4rem;
@@ -37,7 +44,8 @@
 
   label {
     margin-bottom: 10px;
-    color: #686262;
+    color: #1b1616;
+    font-size: 19px;
   }
 
   input[type="text"] {
@@ -45,10 +53,11 @@
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    border: 1px solid darkslategrey;
   }
   button {
     padding: 8px 20px;
-    background-color: #979ece;
+    background-color: #485be0;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -57,7 +66,7 @@
     font-size: 1.3rem;
   }
   button:hover{
-    background-color:#727bb5 ;
+    background-color:#364be4 ;
     transition: 0.2ms;
   }
 

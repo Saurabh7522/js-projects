@@ -1,2 +1,2 @@
 # js-projects
-1. BMI Calculator
+ BMI Calculator , todo-list
